@@ -4,5 +4,5 @@ metadata:
   name: argocd-rbac-cm
 data:
   policy.csv: |
-    p, test-user, applications, get, test-proj/test-*, allow
+    p, test, applications, get, test-proj/test-*, allow
 

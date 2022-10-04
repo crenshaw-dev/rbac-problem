@@ -3,5 +3,5 @@ kind: ConfigMap
 metadata:
   name: argocd-cm
 data:
-  accounts.test-user: login
+  accounts.test: login
 
