@@ -2,6 +2,7 @@ resources:
 - cluster-install
 - argocd.yaml
 - repo.yaml
+- app.yaml
 
 patchesStrategicMerge:
 - argocd-cm.yaml
