@@ -1,0 +1,8 @@
+resources:
+- cluster-install
+
+patchesStrategicMerge:
+- argocd-cm.yaml
+- argocd-rbac-cm.yaml
+- argocd-secret.yaml
+
